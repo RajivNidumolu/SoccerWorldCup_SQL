@@ -1,0 +1,1 @@
+create table player_cards(player_id int primary key,foreign key(player_id) references players(player_id), yellow_cards int,red_cards int);

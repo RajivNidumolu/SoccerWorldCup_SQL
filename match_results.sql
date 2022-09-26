@@ -1,0 +1,1 @@
+create table match_results(match_id int primary key, date_of_match varchar(30), start_time_of_match varchar(30), team1 varchar(25),team2 varchar(25), foreign key (team1) references country(country_name),foreign key(team2) references country(country_name),team1_score int,team2_score int,stadium_name varchar(35),host_city varchar(20) );

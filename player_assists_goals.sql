@@ -1,0 +1,1 @@
+create table player_assists_goals(player_id int primary key,foreign key(player_id) references players(player_id), no_of_matches int, goals int,assists int,minutes_played int);
